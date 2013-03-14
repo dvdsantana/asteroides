@@ -31,5 +31,8 @@
         <item name="android:padding">10dip</item>
         
     </style>
+    
+    <style name="TemaAsteroides" parent="android:style/Theme.NoTitleBar">
+    </style>
 
 </resources>
