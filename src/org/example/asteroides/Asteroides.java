@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
 public class Asteroides extends Activity {
 
@@ -24,6 +26,16 @@ public class Asteroides extends Activity {
 	public void lanzarAcercaDe(View view) {
 		Intent i = new Intent(this, AcercaDe.class);
 		startActivity(i);
+	}
+	
+	public void salir(View view) {
+		Button bSalir = (Button)findViewById(R.id.bSalir);
+		
+		bSalir.setOnClickListener(new OnClickListener() {
+			public void onClick(View view) {
+				finish();
+			}
+		});
 	}
 
 }

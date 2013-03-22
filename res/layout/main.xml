@@ -18,19 +18,24 @@
   <TextView style="@style/TextoAsteroides"
       android:text="@string/tituloAplicacion"/>
 
-  <Button android:id="@+id/Button01" style="@style/TextoAsteroides.Botones"
+  <Button android:id="@+id/bArrancar" style="@style/TextoAsteroides.Botones"
       android:text="@string/Arrancar"/>
 
-  <Button android:id="@+id/Button02" style="@style/TextoAsteroides.Botones"
+  <Button
+      android:id="@+id/bConfigurar"
+      style="@style/TextoAsteroides.Botones"
       android:text="@string/Configurar"/>
 
   <Button
-      android:id="@+id/Button03"
+      android:id="@+id/bAcercaDe"
       style="@style/TextoAsteroides.Botones"
       android:onClick="lanzarAcercaDe"
       android:text="@string/Acercade" />
 
-  <Button android:id="@+id/Button04" style="@style/TextoAsteroides.Botones"
-      android:text="@string/Salir"/>
+  <Button
+      android:id="@+id/bSalir"
+      style="@style/TextoAsteroides.Botones"
+      android:onClick="salir"
+      android:text="@string/Salir" />
 
   </LinearLayout>
