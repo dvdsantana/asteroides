@@ -12,6 +12,13 @@
     <string name="tituloAplicacion">Asteroides</string>
     <string name="Acercade_desc">Este programa ha sido desarrollado como ejemplo en el curso de Android para demostrar cómo se pueden lanzar nuevas actividades desde la actividad principal.</string>
     <string name="configuracion">Configuración</string>
-
+    
+    <string name="Reproducir_musica">Reproducir música</string>
+    <string name="Reproducir_musica_resumen">Se reproduce música de fondo</string>
+    <string name="Tipo_graficos">Tipo de gráficos</string>
+    <string name="Tipo_graficos_resumen">Se escoge la representación de gráficos</string>
+    <string name="Numero_fragmentos">Número de Fragmentos</string>
+    <string name="Numero_fragmentos_resumen">En cuantos trozos se divide un asteroide</string>
+    <string name="Preferencias">Preferencias</string>
 
 </resources>

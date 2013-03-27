@@ -30,6 +30,11 @@ public class Asteroides extends Activity {
 		startActivity(i);
 	}
 	
+	public void lanzarPreferencias(View view) {
+		Intent i = new Intent(this, Preferencias.class);
+		startActivity(i);
+	}
+	
 	public void salir(View view) {
 		Button bSalir = (Button)findViewById(R.id.bSalir);
 		
@@ -54,6 +59,9 @@ public class Asteroides extends Activity {
 	    	case R.id.acercaDe:
 	    		lanzarAcercaDe(null);
 	    		break;
+	    	case R.id.configuracion:
+                lanzarPreferencias(null);
+                break;
 	    	}
     	return true; /** true -> consumimos el item, no se propaga*/
     }
