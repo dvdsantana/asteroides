@@ -11,6 +11,7 @@
     <string name="Salir">Salir</string>
     <string name="tituloAplicacion">Asteroides</string>
     <string name="Acercade_desc">Este programa ha sido desarrollado como ejemplo en el curso de Android para demostrar cómo se pueden lanzar nuevas actividades desde la actividad principal.</string>
+    <string name="configuracion">Configuración</string>
 
 
 </resources>
