@@ -32,7 +32,7 @@
         
     </style>
     
-    <style name="TemaAsteroides" parent="android:style/Theme.NoTitleBar">
+    <style name="TemaAsteroides" parent="android:style/Theme.NoTitleBar">        
     </style>
 
 </resources>

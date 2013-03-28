@@ -20,5 +20,12 @@
     <string name="Numero_fragmentos">Número de Fragmentos</string>
     <string name="Numero_fragmentos_resumen">En cuantos trozos se divide un asteroide</string>
     <string name="Preferencias">Preferencias</string>
+    
+    <string name="Puntuaciones">Puntuaciones</string>
+    <string name="No_puntuaciones">No hay puntuaciones</string>
+    
+    <string name="Description_asteroid">Imagen de asteroide</string>
+    
+    <string name="otro_texto">Otro Texto</string>
 
 </resources>

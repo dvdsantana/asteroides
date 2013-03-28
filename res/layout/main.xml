@@ -15,8 +15,9 @@
 
     tools:context=".Asteroides" >
 
-  <TextView style="@style/TextoAsteroides"
-      android:text="@string/tituloAplicacion"/>
+    <TextView
+        style="@style/TextoAsteroides"
+        android:text="@string/tituloAplicacion" />
 
   <Button android:id="@+id/bArrancar" style="@style/TextoAsteroides.Botones"
       android:text="@string/Arrancar"/>
@@ -32,6 +33,12 @@
       style="@style/TextoAsteroides.Botones"
       android:onClick="lanzarAcercaDe"
       android:text="@string/Acercade" />
+
+  <Button
+      android:id="@+id/Puntuaciones"
+      style="@style/TextoAsteroides.Botones"
+      android:onClick="lanzarPuntuaciones"
+      android:text="@string/Puntuaciones" />
 
   <Button
       android:id="@+id/bSalir"

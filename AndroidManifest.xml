@@ -13,8 +13,8 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/TemaAsteroides" >
-        <activity
-            android:name="org.example.asteroides.Asteroides"
+        
+        <activity android:name="org.example.asteroides.Asteroides"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,10 +22,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:theme="@style/TemaAsteroides" 
-            android:name="AcercaDe" android:label="@string/Acercade">
+        
+        <activity android:name="AcercaDe"
+            android:theme="@style/TemaAsteroides" 
+            android:label="@string/Acercade">
         </activity>
-        <activity android:name="Preferencias" android:theme="@style/TemaAsteroides" android:label="@string/Preferencias"></activity>
+        
+        <activity android:name="Preferencias" 
+            android:theme="@style/TemaAsteroides" 
+            android:label="@string/Preferencias"></activity>
+        <activity android:theme="@style/TemaAsteroides" android:name="Puntuaciones" android:label="@string/Puntuaciones"></activity>
     </application>
 
 </manifest>
