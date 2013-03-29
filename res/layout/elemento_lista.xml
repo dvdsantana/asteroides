@@ -16,7 +16,8 @@
 			android:layout_toRightOf="@id/icono"
 			android:layout_alignParentTop="true"
 			android:textAppearance="?android:attr/textAppearanceLarge"
-			android:singleLine="true" />
+			android:singleLine="true"
+			android:textIsSelectable="true" />
 		
 		<TextView android:id="@+id/subtitulo"
 			android:layout_width="fill_parent"

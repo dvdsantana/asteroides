@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Asteroids</string>
+    <string name="app_name">Asteroides</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     
@@ -10,6 +10,23 @@
     <string name="Acercade">About</string>
     <string name="Salir">Exit</string>
     <string name="tituloAplicacion">Asteroids</string>
+    <string name="Acercade_desc">This program has been developed as an example in the Android course to demonstrate how to launch new activity from the main activity.</string>
+    <string name="configuracion">Configuration</string>
+    
+    <string name="Reproducir_musica">Play music</string>
+    <string name="Reproducir_musica_resumen">Background music</string>
+    <string name="Tipo_graficos">Graphics type</string>
+    <string name="Tipo_graficos_resumen">Select graphic type</string>
+    <string name="Numero_fragmentos">Fragments number</string>
+    <string name="Numero_fragmentos_resumen">In few pieces divides an asteroid</string>
+    <string name="Preferencias">Preferences</string>
+    
+    <string name="Puntuaciones">Scores</string>
+    <string name="No_puntuaciones">No scores</string>
+    
+    <string name="Description_asteroid">Asteroid image</string>
+    
+    <string name="otro_texto">Other text</string>
 
 
 </resources>
